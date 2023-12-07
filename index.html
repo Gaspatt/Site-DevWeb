@@ -3,63 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Loja de Papelaria Criativa</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background-color: #ffffff;
-        }
-
-        .header .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #000000;
-        }
-
-        .header .hamburger-menu {
-            display: none;
-            cursor: pointer;
-        }
-
-        .section {
-            padding: 50px;
-            background-color: #f2f2f2;
-        }
-
-        .footer {
-            padding: 20px;
-            text-align: center;
-            background-color: #333333;
-            color: #ffffff;
-        }
-
-        @media (max-width: 768px) {
-            .header .hamburger-menu {
-                display: block;
-            }
-
-            .section {
-                padding: 20px;
-            }
-        }
-    </style>
 </head>
 <body>
     <header class="header">
         <div class="logo">Criativa</div>
+        <nav class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+        </nav>
         <div class="hamburger-menu">Menu</div>
     </header>
 
