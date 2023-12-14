@@ -210,9 +210,20 @@
   #gen {
     display: block;
     text-align:initial;
+    background-color: rgb(201, 201, 201);
+    border-radius: 10px;
   }
   #gen #masc, #fem {
     margin-left: 50px;
+  }
+  .masc, .fem {
+    color: rgb(209, 96, 130);
+    font-weight: 300;
+  }
+  #genero {
+    color: rgb(221, 39, 93);
+    font-size: 14pt;
+    margin-left: 15px;
   }
 
   /*Botão*/
