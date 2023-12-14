@@ -6,159 +6,340 @@
     <title>Papelaria Acapel</title>
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link href="nav.css" rel="stylesheet" type="text/css" />
+    <link href="../css/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/reponsive.css">
 </head>
 
 <body>
-    <nav>
-        <div class="menu-toggle">
-            <h3>Menu</h3>
-            <button type="button" id="menu-btn">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <h3>Papelaria Criativa</h3>
+                <button type="button" id="menu-btn">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-crop" aria-hidden="true"></i>
+                        <span class="title">Escritório</span>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#porta">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                Porta Lápis
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#frag">
+                                <i class="fa fa-database" aria-hidden="true"></i>
+                                Frag. de Papel
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-amazon" aria-hidden="true"></i>
+                                Movéis e Periféricos
+                            </a>
+                            <ul>
+                                <li><a href="#mesa"><i class="fa fa-user" aria-hidden="true"></i>Mesa Office</a></li>
+                                <li>
+                                    <a href="#kittec">
+                                        <i class="fa fa-diamond" aria-hidden="true"></i>Mouse e Teclado</a>
+                                </li>
+                                <li><a href="#monitor"><i class="fa fa-user" aria-hidden="true"></i>Monitor 21,5"</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#clipes">
+                                <i class="fa fa-database" aria-hidden="true"></i>
+                                Clipes de Papel
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="" href="javascript:;">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        <span class="title" id="escola">Escola</span>
+
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#penal">Penal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#bic">Canetas BIC
+                            </a>
+                            <ul>
+                                <li><a href="#dezcores">Kit BIC 3 cores</a></li>
+                                <li><a href="#dezcores">Kit BIC Cristal</a></li>
+                                <li><a href="#dezcores">Kit BIC 12 Cores</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="caderno">Cadernos
+                            </a>
+                            <ul>
+                                <li><a href="#caderno">Caderno Inteligente</a></li>
+                                <li><a href="#sonic">Caderno do Sonic</a></li>
+                                <li><a href="#bart">Caderno Bart Simpson</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#lapis">Lapis Faber Castell
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#promocoes">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                        <span class="title">Promoções</span>
+                    </a>
+                </li>
+                <li class="last ">
+                    <a href="#contato">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span class="title">Contate-nos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <p id="p-none">Acapel</p>
+        <div class="banner-container">
+            <div class="banner">
+                <div class="shoe">
+                    <img src="img/76-769579_office-supplies-png-stationery-for-office-png-transparent.png" alt="papelaria">
+                </div>
+                <div class="content">
+                    <span>Promoção</span>
+                    <h3>50% 0ff</h3>
+                    <p>Ofertas terminam 31 de Dezembro</p>
+                    <a href="#promocoes" class="btn">ver promoção</a>
+                </div>
+                <div class="women">
+                    <img src="../img/women.png" alt="woman">
+                </div>
+            </div>
         </div>
-        <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-            <li>
-                <a href="javascript:;">
-                    <i class="fa fa-home" aria-hidden="true"></i>
-                    <span class="title">Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:;">
-                    <i class="fa fa-cube" aria-hidden="true"></i>
-                    <span class="title">About Us</span>
 
-                </a>
-                <ul>
-                    <li>
-                        <a href="#">Sub Item One</a>
-                    </li>
-                    <li>
-                        <a href="#">Sub Item Two</a>
-                    </li>
-                    <li>
-                        <a href="#">Sub Item Three</a>
-                    </li>
-                    <li>
-                        <a href="#">Sub Item Four</a>
-                    </li>
-                </ul>
-            </li>
+    </header>
 
-            <li>
-                <a href="javascript:;">
-                    <i class="fa fa-crop" aria-hidden="true"></i>
-                    <span class="title">4 Level Menu</span>
-                </a>
-                <ul>
-                    <li>
-                        <a href="javascript:;">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                            Sub Item One
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-database" aria-hidden="true"></i>
-                            Sub Item Two
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:;">
-                            <i class="fa fa-amazon" aria-hidden="true"></i>
-                            Sub Item Three
-                        </a>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Sub Item Link 1</a></li>
-                            <li>
-                                <a href="javascript:;">
-                                    <i class="fa fa-diamond" aria-hidden="true"></i>Sub Item Link 2</a>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-trash" aria-hidden="true"></i>Sub Item Link 1</a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-dashcube" aria-hidden="true"></i>Sub Item Link 2</a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-dropbox" aria-hidden="true"></i>Sub Item Link 3</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Sub Item Link 3</a></li>
-                        </ul>
-                    </li>
+    <main id="escritorio">
+        <h1>produtos de escritório</h1>
 
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-database" aria-hidden="true"></i>
-                            Sub Item Four
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a class="" href="javascript:;">
-                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    <span class="title">Services</span>
+        <section class="escritorio sc">
+            <div class="esc esc1" id="clipes">
+                <div class="img">
+                    <img src="img/clipes.webp" alt="clipes">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Clipes de Papel 300Uni. RS$24,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc2">
+                <div class="img" id="frag">
+                    <img src="img/fragmentadora.jpg" alt="Fragmentadora">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Fragmentadora de Papel RS$450,00</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc3" id="postit">
+                <div class="img">
+                    <img src="img/postit.webp" alt="post it">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Bloco de Post It RS$10,99</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc4" id="porta">
+                <div class="img">
+                    <img src="img/png-clipart-pen-pencil-cases-glass-marker-pen-pencil-pen-stationery.png" alt="guarda-lapis">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Porta Lapis Azul RS$25,99</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+        </section>
 
-                </a>
-                <ul>
-                    <li>
-                        <a href="#">Sub Item One
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:;">Sub Item Two
-                        </a>
-                        <ul>
-                            <li><a href="#">Sub Item Link 1</a></li>
-                            <li><a href="#">Sub Item Link 2</a></li>
-                            <li><a href="#">Sub Item Link 3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript:;">Sub Item Three
-                        </a>
-                        <ul>
-                            <li><a href="#">Sub Item Link 1</a></li>
-                            <li><a href="#">Sub Item Link 1</a></li>
-                            <li><a href="#">Sub Item Link 1</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Sub Item Four
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="javascript:;">
-                    <i class="fa fa-heart" aria-hidden="true"></i>
-                    <span class="title">Products</span>
-                </a>
-            </li>
-            <li class="last ">
-                <a href="javascript:;">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span class="title">Contact Us</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+        <aside class="escritorio">
+            <div class="esc esc1" id="gramp">
+                <div class="img">
+                    <img src="img/gramp.webp" alt="grampeador">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Grampeador Eagle até 20 Folhas RS$19,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc2" id="mesa">
+                <div class="img">
+                    <img src="img/mesa.webp" alt="mesa">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Mesa Office com Prateleiras Decorativa RS$499,99</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc3" id="monitor">
+                <div class="img">
+                    <img src="img/monitor.jpg" alt="Monitor">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Monitor Phillips 21,5" VA com HDMI RS$561,99</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc4">
+                <div class="img">
+                    <img src="img/kittec.webp" alt="Kit teclado e mouse">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Kit Teclado e Mouse Branco RS$49,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+        </aside>
 
-    <footer class="rodape">
+        <h1 id="promocoes">promoções</h1>
+
+        <section class="section">
+            <div class="promocoes">
+                <div class="img-sec">
+                    <img src="img/div01.webp" alt="">
+                </div>
+            </div>
+            <div class="promo">
+                <div class="img-sec">
+                    <img src="img/div02.webp" alt="">
+                </div>
+            </div>
+            <div class="promocoes" style="margin-bottom: 5vh;">
+                <div class="img-sec">
+                    <img src="img/div03.webp" alt="">
+                </div>
+            </div>
+            <div class="promo" style="margin-bottom: 5vh;">
+                <div class="img-sec">
+                    <img src="img/div01.webp" alt="">
+                </div>
+            </div>
+        </section>  
+        
+        <h1>material escolar</h1>
+
+        <section class="escritorio sc">
+            <div class="esc esc1" id="trescores">
+                <div class="img">
+                    <img src="img/caneta-bic-3.jpg" alt="canetas bic">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Kit de 3 canetas BIC RS$9,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc2" id="cristal">
+                <div class="img">
+                    <img src="img/cristal.jpg" alt="cristal">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Kit Caneta BIC cristal 8 cores RS$19,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc3" id="dezcores">
+                <div class="img">
+                    <img src="img/10.jpg" alt="Kit 12 lápis">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Kit 12 canetas coloridas BIC RS$24,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc4" id="penal">
+                <div class="img">
+                    <img src="img/penal-kippling.jpg" alt="Penal">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Penal Kippling com organizador RS$59,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+        </section>
+
+        <section class="escritorio">
+            <div class="esc esc2">
+                <div class="img">
+                    <img src="img/caderno.webp" alt="Caderno">
+                </div>
+                <div class="nome-item" id="caderno">
+                    <p class="name">Caderno Inteligente Espiral 100 folhas RS$124,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc4" id="bart">
+                <div class="img">
+                    <img src="img/bart.jpg" alt="bart">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Caderno Bart Simpson Espiral RS$59,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc4" id="sonic">
+                <div class="img">
+                    <img src="img/sonic.jpg" alt="sonic">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Caderno Sonic Espiral RS$49,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+            <div class="esc esc3" id="lapis">
+                <div class="img">
+                    <img src="img/faber-48cores.webp" alt="Kit 48 lápis">
+                </div>
+                <div class="nome-item">
+                    <p class="name">Kit 48 lápis coloridos Faber Castell RS$84,90</p>
+                </div>
+                <button class="btn1">Comprar</button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="rodape" id="contato">
         <div class="container-3">
             <div class="row">
                 <div class="col" id="company">
                     <img src="images/logo.png" alt="" class="logo">
                     <p id="rea">
-                        We will help you realize your dream of studying abroad.
+                        Encontre todos os materiais necessarios para seus estudos e trabalho na Acapel.
                     </p>
                     <div class="social">
                         <a href="#"><i class="fab fa-facebook"></i></a>
@@ -167,26 +348,24 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                     </div>
-                    <p id="copy">
-                        © ALLRIGHT RESERVED - METAVERSE APLLY 2023
+                    <p id="copy" style="text-transform: uppercase;">
+                        © Todos os direitos reservados - papelaria acapel 2023
                     </p>
                 </div>
                 <div class="col" id="services">
-                    <h3>Services</h3>
+                    <h3>Escritório</h3>
                     <div class="links">
-                        <a href="#">Blog</a>
-                        <a href="#">Documents</a>
-                        <a href="#">Community</a>
-                        <a href="#">Commom app</a>
+                        <a href="#">Sessão Escritório</a>
+                        <a href="#">Grampeador</a>
+                        <a href="#">Porta-canets</a>
                     </div>
                 </div>
                 <div class="col" id="useful-links">
-                    <h3>Links</h3>
+                    <h3>Escola</h3>
                     <div class="links">
-                        <a href="index.html">Home</a>
-                        <a href="#">Frequently questions</a>
-                        <a href="#">About us</a>
-                        <a href="#">Help</a>
+                        <a href="#escola">Sessão Escola</a>
+                        <a href="#dezcores">Canetas BIC</a>
+                        <a href="#caderno">Cadernos</a>
                     </div>
                 </div>
                 <div class="col" id="contact">
@@ -203,7 +382,7 @@
             </div>
             <div class="row">
                 <div class="form">
-                    <form action="">
+                    <form>
                         <input type="text" placeholder="Email here...">
                         <button><i class="fa fa-paper-plane"></i></button>
                     </form>
@@ -214,9 +393,9 @@
 
 </body>
 
-<script src="jquery-1.10.1.min.js" type="text/javascript"></script>
-<script src="nav.js" type="text/javascript"></script>
-<script src="navbar.js"></script>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/navbar.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         $("#respMenu").aceResponsiveMenu({
