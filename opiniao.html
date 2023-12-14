@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Acapel - Sua critica</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="../css/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <h3>Papelaria Criativa</h3>
+                <button type="button" id="menu-btn">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                <li>
+                    <a href="index.html">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-crop" aria-hidden="true"></i>
+                        <span class="title">Escritório</span>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#porta">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                Porta Lápis
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#frag">
+                                <i class="fa fa-database" aria-hidden="true"></i>
+                                Frag. de Papel
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-amazon" aria-hidden="true"></i>
+                                Movéis e Periféricos
+                            </a>
+                            <ul>
+                                <li><a href="#mesa"><i class="fa fa-user" aria-hidden="true"></i>Mesa Office</a></li>
+                                <li>
+                                    <a href="#kittec">
+                                        <i class="fa fa-diamond" aria-hidden="true"></i>Mouse e Teclado</a>
+                                </li>
+                                <li><a href="#monitor"><i class="fa fa-user" aria-hidden="true"></i>Monitor 21,5"</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#clipes">
+                                <i class="fa fa-database" aria-hidden="true"></i>
+                                Clipes de Papel
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="" href="javascript:;">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        <span class="title" id="escola">Escola</span>
+
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#penal">Penal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#bic">Canetas BIC
+                            </a>
+                            <ul>
+                                <li><a href="#dezcores">Kit BIC 3 cores</a></li>
+                                <li><a href="#dezcores">Kit BIC Cristal</a></li>
+                                <li><a href="#dezcores">Kit BIC 12 Cores</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="caderno">Cadernos
+                            </a>
+                            <ul>
+                                <li><a href="#caderno">Caderno Inteligente</a></li>
+                                <li><a href="#sonic">Caderno do Sonic</a></li>
+                                <li><a href="#bart">Caderno Bart Simpson</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#lapis">Lapis Faber Castell
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#promocoes">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                        <span class="title">Promoções</span>
+                    </a>
+                </li>
+                <li class="last ">
+                    <a href="#contato">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span class="title">Contate-nos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+       
+
+    </header>
+
+
+    <div class="box-formulario">        
+        
+        <div class="formulario">
+            
+            <div class="title-form">
+              <h1>Sua opinião</h1>
+            </div>
+            <form action="#" method="post">
+                     
+                <span>
+                    <input type="text" class="input-balao-up" id="nome" name="nome" placeholder="Nome" autocomplete="off" required=""/>
+                    <label for="nome"> <i class="fas fa-user"></i> </label>
+                </span>
+                <span>
+                    <input type="text" class="input-balao-up" id="email" name="email" placeholder="E-mail" autocomplete="off" required=""/>
+                    <label for="email"> <i class="fas fa-envelope"></i> </label>
+                </span>
+                <span>
+                    <input type="text" class="input-balao-up" id="assunto" name="assunto" placeholder="Assunto" autocomplete="off" required=""/>
+                    <label for="assunto"> <i class="fas fa-info"></i> </label>
+                </span>
+                <span id="gen">
+                    <p id="genero">Genêro</p>
+                    <input type="radio" name="genero" id="masc">
+                    <label for="genero">Homem</label><br>
+                    <input type="radio" name="genero" id="fem">
+                    <label for="genero">Mulher</label>
+
+                </span>
+                <span>
+                    <textarea type="text" class="textarea-balao-up" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" autocomplete="off" required=""></textarea>
+                    <label for="mensagem"> <i class="far fa-comment"></i></label>
+                </span>
+                
+                <div class="box-btn">
+                     
+                    <button type="submit" class="btn-envia zoom-shadow">
+                        <i class="icon icon-forward-1"> Enviar</i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+    
+    <footer class="rodape" id="contato">
+        <div class="container-3">
+            <div class="row">
+                <div class="col" id="company">
+                    <img src="images/logo.png" alt="" class="logo">
+                    <p id="rea">
+                        Encontre todos os materiais necessarios para seus estudos e trabalho na Acapel.
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <p id="copy" style="text-transform: uppercase;">
+                        © Todos os direitos reservados - papelaria acapel 2023
+                    </p>
+                </div>
+                <div class="col" id="services">
+                    <h3>Escritório</h3>
+                    <div class="links">
+                        <a href="#">Sessão Escritório</a>
+                        <a href="#">Grampeador</a>
+                        <a href="#">Porta-canets</a>
+                    </div>
+                </div>
+                <div class="col" id="useful-links">
+                    <h3>Escola</h3>
+                    <div class="links">
+                        <a href="#escola">Sessão Escola</a>
+                        <a href="#dezcores">Canetas BIC</a>
+                        <a href="#caderno">Cadernos</a>
+                    </div>
+                </div>
+                <div class="col" id="contact">
+                    <h3>Contact</h3>
+                    <div class="contact-details">
+                        <i class="fa fa-location"></i>
+                        <p>Araquari, BR-280, <br> SC, Brazil</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa fa-phone"></i>
+                        <p>+55 (47) 98804-2804</p>
+                    </div>
+                    <div class="links">
+                        <a href="critica.html"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form">
+                    <form>
+                        <input type="text" placeholder="Email here...">
+                        <button><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/navbar.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#respMenu").aceResponsiveMenu({
+            resizeWidth: '768',
+            animationSpeed: 'fast',
+            accoridonExpAll: false
+        });
+    });
+</script>
+</html>
